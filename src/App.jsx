@@ -18,6 +18,7 @@ function App() {
     <div style={gridStyle}>
       {cards.map((_, index) => (
         <Productcard key={index} />
+
       ))}
     </div>
   );
